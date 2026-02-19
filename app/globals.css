@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Netflix-style base: dark background, smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-netflix-black text-white antialiased;
+}
+
+/* Horizontal scroll row: hide scrollbar but keep functionality */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Smooth horizontal scroll behavior */
+.scroll-smooth-x {
+  scroll-behavior: smooth;
+}
