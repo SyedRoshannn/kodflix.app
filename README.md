@@ -2,6 +2,13 @@
 
 A modern Netflix-style streaming UI built with **Next.js 14** (App Router), **TypeScript**, and **Tailwind CSS**. Frontend only; uses a mock API for movies.
 
+Deployed project link :
+ |  [kodflix-app-1mcu.vercel.app](https://kodflix-app-1mcu.vercel.app/)
+
+ Images: 
+ <img width="1517" height="740" alt="image" src="https://github.com/user-attachments/assets/86558a73-5186-4b8d-96f3-88fe451d4bd2" />
+
+
 ## Features
 
 - **Homepage**: Dark Netflix-style UI, hero banner, horizontal movie rows by category (Trending, Action, Drama)
